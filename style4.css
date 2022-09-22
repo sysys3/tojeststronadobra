@@ -1,0 +1,29 @@
+.naglowek {
+    border: 8px solid black;    
+    width: auto;
+    height: max-content;
+    width: 100%;
+    margin-right: 10px;
+}
+
+#unorderedlist1 {
+    background: rgb(89,58,180);
+    position: static;
+    background: linear-gradient(90deg, rgba(89,58,180,1) 0%, rgba(206,29,253,1) 50%);
+    border: 5px solid black;
+    margin-left: 0px;
+    margin-top: 110px;
+    width: 400px;
+    padding-bottom: 50px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+body {
+ background-image: url(https://api.culture.pl/sites/default/files/styles/1920_auto/public/2018-08/panorama-kosciuszko_2.jpg?itok=C9JEE2ZA);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size:cover;
+ position: relative;
+ height: 2000px;
+}
+

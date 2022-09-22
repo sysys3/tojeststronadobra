@@ -1,0 +1,44 @@
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+body {
+    overflow: hidden;
+    background-color: #ff001f;
+    animation: epilepsja 1s infinite;
+    }
+
+    @keyframes epilepsja {
+        0%    {background-color:#ff001f;}
+        10%   {background-color:#e3ff55;}
+        20%   {background-color:#6affa2;}
+        30%   {background-color:#55c1ff;}
+        40%   {background-color:#556dff;}
+        50%   {background-color:#d940ff;}
+        60%   {background-color:#ffd5f4;}
+        70%   {background-color:#14f300;}
+        80%   {background-color:#ffc72b;}
+        90%   {background-color:#810b15;}
+        100%  {background-color:#ff001f;}
+    }
+    
