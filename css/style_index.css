@@ -1,0 +1,83 @@
+body, html {
+    margin: 0px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/brick_wall.jpg);
+    /*background-image: linear-gradient(
+    45deg,
+     hsl(240deg 100% 20%) 0%,
+     hsl(219deg 100% 29%) 14%,
+     hsl(209deg 100% 31%) 26%,
+     hsl(191deg 100% 26%) 38%,
+     hsl(162deg 100% 26%) 50%,
+     hsl(126deg 65% 36%) 60%,
+     hsl(82deg 100% 29%) 69%,
+     hsl(59deg 100% 27%) 76%,
+     hsl(39deg 100% 35%) 84%,
+     hsl(23deg 100% 43%) 91%,
+     hsl(0deg 100% 50%) 100%); */
+}
+
+#menu1 {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    position: fixed;
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 89% 18%) 0%,
+    hsl(221deg 100% 18%) 14%,
+    hsl(210deg 100% 14%) 26%,
+    hsl(193deg 100% 10%) 38%,
+    hsl(168deg 100% 8%) 50%,
+    hsl(129deg 23% 12%) 60%,
+    hsl(83deg 34% 12%) 69%,
+    hsl(53deg 54% 11%) 76%,
+    hsl(36deg 67% 13%) 84%,
+    hsl(20deg 60% 17%) 91%,
+    hsl(0deg 47% 22%) 100%);
+    font-family: 'Bungee Spice', cursive;
+    font-style: italic;
+    font-size: 80px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border: 5px solid black;
+    margin-top: 0px;
+}
+
+
+#button1{
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    color: white;
+    border: 2px solid blue;
+    background-image: linear-gradient(
+    45deg,
+    hsl(240deg 89% 18%) 0%,
+    hsl(221deg 100% 18%) 14%,
+    hsl(210deg 100% 14%) 26%,
+    hsl(193deg 100% 10%) 38%,
+    hsl(168deg 100% 8%) 50%,
+    hsl(129deg 23% 12%) 60%,
+    hsl(83deg 34% 12%) 69%,
+    hsl(53deg 54% 11%) 76%,
+    hsl(36deg 67% 13%) 84%,
+    hsl(20deg 60% 17%) 91%,
+    hsl(0deg 47% 22%) 100%);
+    font-size: 25px;
+    padding: 0px;
+    margin-top: 130px;
+    margin-left: 100px;
+    cursor: pointer;
+    
+}
+
+
+#button1:hover{
+    border: 5px solid rgb(255, 0, 0);
+    color:rgb(255, 0, 0);
+    background-image: none;
+    background-color: white;
+}

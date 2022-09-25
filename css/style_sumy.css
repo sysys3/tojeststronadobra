@@ -1,0 +1,124 @@
+body {
+    background-image: url("../images/sumy/water.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    position: relative;
+    animation-name: animacja1;
+    animation-duration: 3s;
+}
+
+@keyframes animacja1 {
+    0%   {background-color: (255, 0, 0, 0);right:50%; top:0%;}
+    100% {background-color: (255, 0, 0, 0);right:0%; top:0%;}
+}
+#buttonmenu {
+height: 50px;
+    width: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 255, 64);
+    background-color: #18ab29;
+    font-size: 40px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 700px;
+    cursor: pointer;
+	font-family: 'Comic Neue', cursive;
+}
+
+
+img {
+    position: relative;
+    animation-name: animacja1;
+    animation-duration: 5s;
+}
+
+.all {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    color: rgb(0, 255, 13);
+    position: center;
+}
+
+.posp {
+    position: center;
+    border: 10px solid #ff0000;
+}
+
+li {
+    padding-right: 150px;
+}
+
+footer {
+    font-family: 'Comic Neue', cursive;
+    font-size: 30px;
+    margin-top: 250px;
+    position: center;
+    border: 8px solid rgb(68, 0, 255);
+}
+
+#lubiesumy {
+	box-shadow: 13px 14px 18px -3px #2600ff;
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border-radius:42px;
+	border:7px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Comic Neue', cursive;
+	font-size:25px;
+	font-weight:bold;
+	padding:8px 37px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #0900ff;
+}
+#lubiesumy:hover {
+	background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+#lubiesumy:active {
+	position:relative;
+	top:1px;
+}
+        
+.lubiesumy1 {
+    margin-right: 50px;
+    position: relative;
+}
+
+.lubiesumy2 {
+    margin-left: 50px;
+    position: relative;
+}
+
+.strona2 {
+	box-shadow: 3px 5px 8px -1px #21ed73;
+	background:linear-gradient(to bottom, #333333 5%, #fa0000 100%);
+	background-color:#333333;
+	border-radius:42px;
+	border:5px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#f0f0f0;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:-1px 0px 0px #ffdbff;
+    margin-top: 15px;
+}
+.strona2:hover {
+	background:linear-gradient(to bottom, #fa0000 5%, #333333 100%);
+	background-color:#fa0000;
+}
+.strona2:active {
+	position:relative;
+	top:1px;
+}
+
+
+
