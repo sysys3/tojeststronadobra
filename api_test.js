@@ -15,7 +15,7 @@
 
 
 async function kurs() {
-    await fetch('http://api.nbp.pl/api/cenyzlota')
+    await fetch('https://api.nbp.pl/api/cenyzlota')
     .then(data => data.json())
     .then(data => document.getElementById("zlotoweczka").innerHTML = data[0].cena 
     + '</br><p>Data: <span id="data">' + data[0].data + '</span></p>')
